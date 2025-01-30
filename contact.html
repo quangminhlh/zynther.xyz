@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="icon" href="images/logo.png">
+  <meta name="description" content="Trang web liên hệ chính thức của máy chủ Minecraft Zynther SMP.">
+  <meta name="author" content="Zynther Team">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/pages/contact.css">
+
+  <title>Zynther SMP | Liên Hệ</title>
+</head>
+<body>
+  <!--Thanh điều hướng-->
+  <div class="navbar">
+    <div class="menu-mobile">
+      <a href="index.html">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo máy chủ" class="logo-img">
+          <h3 class="server-name">Zynther SMP</h3>
+        </div>
+      </a>
+
+      <div class="hamburger">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+
+    <div class="links">
+      <a href="index.html" class="link">Trang Chủ</a>
+      <a href="rules.html" class="link">Quy Tắc</a>
+      <a href="admin-team.html" class="link">Đội Ngũ Quản Trị</a>
+      <a href="#" class="link active">Liên Hệ</a>
+    </div>
+  </div>
+
+  <!--Tiêu đề-->
+  <section id="header">
+    <div class="content">
+      <div class="info">
+        <p class="minecraft-server-ip">mc.zynther.xyz:27112</p>
+        <h1 class="title"><span>Kết nối</span> với chúng tôi</h1>
+      </div>
+      <p class="description">
+        Bạn có vấn đề cần hỗ trợ? Hãy liên hệ với chúng tôi qua biểu mẫu bên dưới.
+      </p>
+    </div>
+  </section>
+
+  <!--Liên Hệ-->
+  <section id="contacts">
+    <div class="content">
+      <h2 class="section-title">Biểu mẫu liên hệ</h2>
+
+      <div class="columns">
+        <form class="contact-form" action="" method="POST">
+          <input type="hidden" name="_subject" value="Tin nhắn từ trang web">
+          <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="" class="location-after-submit">
+
+          <div class="row">
+            <label for="name">* Tên trong game (hoặc tên thật)</label>
+            <input type="text" required id="name" name="name" placeholder="Tên của bạn">
+          </div>
+          <div class="row">
+            <label for="discord-name">Tên người dùng Discord username</label>
+            <input type="text" id="discord-name" name="discord-name" placeholder="username vd: @zyntherdev">
+          </div>
+          <div class="row">
+            <label for="email">* Email</label>
+            <input type="email" required id="email" name="email" placeholder="you@example.com">
+          </div>
+          <div class="row">
+            <label for="message">* Tin nhắn</label>
+            <textarea required id="message" name="message" placeholder="Viết tin nhắn của bạn..."></textarea>
+          </div>
+          <div class="form-footer">
+            <p class="alert">Các trường được đánh dấu * là bắt buộc</p>
+            <button type="submit">Gửi Tin Nhắn <i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+        </form>
+
+        <a href="https://discord.gg/xBd27uXMjw" class="url discord-link">
+          <div class="link">
+            <h5>Tham gia Discord của chúng tôi</h5>
+            <div class="link-description">
+              <p class="description">
+                Kết nối với cộng đồng và nhận hỗ trợ nhanh chóng.
+                <br>-----------
+                <br><span class="discord-online-users">Không có</span> người dùng trực tuyến
+              </p>
+              <div class="icon">
+                <i class="fa-brands fa-discord"></i>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Chân trang-->
+  <footer id="footer">
+    <p class="copyright">&copy; 2025 <span class="server-name-footer">Zynther SMP</span>. Mọi quyền được bảo lưu.</p>
+    <div class="social-links">
+      <a href="#" class="link tiktok-link"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#" class="link instagram-link"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://discord.gg/xBd27uXMjw" class="link discord-link-footer"><i class="fa-brands fa-discord"></i></a>
+    </div>
+  </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/cbf5ee59c8.js" crossorigin="anonymous"></script>
+</html>
